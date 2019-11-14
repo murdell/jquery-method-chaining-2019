@@ -33,4 +33,19 @@ $(document).ready(function() {
         $("p").slideToggle('slow');
     });
 
+    $("p").click(function() {
+        $(this).children("a").addClass("highlight_yellow");
+    });
+    
+    $(".card_image").click(function() {
+         $(this).siblings().slideDown(1000);
+    });
+
+        $(".card").click(function() {
+         $(this).toggleClass("highlight_yellow");
+    });
+
+
+
 }); 
+

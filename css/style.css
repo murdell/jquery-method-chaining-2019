@@ -48,6 +48,7 @@ div{
 }
 .card_para{
 	flex:1 0 auto;
+    display: none;
 }
 
 #container
@@ -75,6 +76,10 @@ div{
 }
 .highlight_stream{
 	background-color: #EB5255;
+}
+
+.highlight_yellow{
+	background-color: yellow;
 }
 
 #my_footer{
