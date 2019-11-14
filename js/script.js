@@ -29,4 +29,8 @@ $(document).ready(function() {
 		$("button").removeClass("makeBorder").addClass("makeRed");
 	});
 
+    $("button").click(function() {
+        $("p").slideToggle('slow');
+    });
+
 }); 
