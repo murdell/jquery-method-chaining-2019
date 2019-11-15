@@ -25,7 +25,7 @@ div{
 .card_image{
 	width: 100%;
 }
-.bottom_button{
+.button{
 	display: flex;
 	box-sizing:border-box;
 	border-radius: 4px;
@@ -79,8 +79,17 @@ div{
 }
 
 .highlight_yellow{
-	background-color: yellow;
+	background-color: #ffff00;
 }
+
+.highlight_green{
+	background-color: #01DF01;
+}
+
+.highlight_blue{
+	background-color: #2E9AFE;
+}
+
 
 #my_footer{
 	width:100%;
